@@ -1,0 +1,18 @@
+{
+  "name": "pil-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for the PIL server",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "node src/deploy-commands.js"
+  },
+  "author": "Hamza al-Hindi",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0"
+  }
+}
